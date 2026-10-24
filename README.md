@@ -1,9 +1,8 @@
 ﻿# 面向嵌入式实时应用的轻量化 RV32I 特权架构 CPU
 
-> 第十届全国大学生集成电路创新创业大赛 · "竞业达"企业命题参赛作品  
-> **RV32I Five-Stage Pipelined Processor with Machine-Mode Trap Support**
 
-本项目基于 Verilog / SystemVerilog 实现了一款面向嵌入式实时应用的轻量化 RV32I 处理器，并集成数字孪生 SoC 外设。CPU 采用经典五级流水线架构，支持数据前推、Load-Use 冒险处理、分支提前判决、机器模式 CSR、`ECALL` / `MRET` 异常处理、硬件定时器中断、UART 与数字孪生外设总线。
+
+本项目基于 Verilog / SystemVerilog 实现了一款面向嵌入式实时应用的轻量化 RV32I 处理器，并集成数字孪生 SoC 外设。CPU 采用经典五级流水线架构，支持数据前推、Load-Use 冒险处理、分支提前判决、机器模式 CSR、`ECALL` / `MRET` 异常处理、硬件定时器中断、UART 与数字孪生外设总线。仅供学习参考喵，不可用于竞赛和作业。（因为性能不是很好）
 
 - **指令集**：RV32I 基础整数指令 + Zicsr 机器模式子集
 - **微架构**：IF / ID / EX / MEM / WB 五级流水线
@@ -576,11 +575,8 @@ rv32i_cpu/software/my_first_os
 
 ---
 
-## 设计文档与图片
+## 图片
 
-完整设计报告：
-
-- [CICC1003583 初赛设计文档](./docs/CICC1003583+初赛+设计文档.docx)
 
 图片素材：
 
